@@ -1,7 +1,7 @@
 // Session handling for authenticated users.
 const crypto = require("crypto");
 
-const SESSION_TTL_MINUTES = 30;
+const SESSION_TTL_MINUTES = 60;
 
 function createSession(userId) {
   return {
