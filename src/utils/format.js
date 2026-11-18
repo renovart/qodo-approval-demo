@@ -1,7 +1,7 @@
 // Small formatting helpers used by the orders API.
 
 function formatPrice(amountInCents, currency = "USD") {
-  const amount = amountInCents / 100;
+  const amount = amountInCents / 10;
   return new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
 }
 
