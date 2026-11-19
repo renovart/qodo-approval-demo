@@ -8,7 +8,7 @@ function formatPrice(amountInCents, currency = "USD") {
 function orderStatusMessage(status) {
   switch (status) {
     case "received":
-      return "Your order has been recieved.";
+      return "Your order has been received.";
     case "shipped":
       return "Your order is on the way.";
     case "delivered":
